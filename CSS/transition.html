@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition Examples</title>
+    <style>
+        .color-transition {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: background-color 5s ease;
+        }
+        .color-transition:hover {
+            background-color: blue;
+        }    
+
+        .size-transition {
+             width: 150px;
+             height: 150px;
+             background-color: green;
+             transition: width 0.5s ease, height 0.5s ease;
+         }
+         .size-transition:hover {
+             width: 250px;
+             height: 250px;
+         }
+
+    </style>
+
+</head>
+<body>
+    <div class="color-transition">Hover me</div>
+
+    <div class="size-transition">Hover me</div>
+</body>
+</html>
