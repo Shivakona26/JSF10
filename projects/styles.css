@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar{
+    background-color: rgb(66, 65, 65);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    color: white;
+}
+
+.logo h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.3sec;
+}
+
+.nav-links a:hover{
+    color: yellow;
+}
+
+.main-content{
+    height: 100vh;
+    background: url("C:\Users\Shiva Kona\OneDrive\圖片\Camera Roll\Snapchat-554575038.jpg") center/cover;
+
+    display: flex;
+    position:relative ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content-overlay{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content-overlay h2{
+    font-weight: bold;
+     position: center;
+}
+
+.content-overlay p{
+       margin-top: 10px;
+       position: center;
+}
