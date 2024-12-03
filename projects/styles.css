@@ -40,8 +40,7 @@ body{
 
 .main-content{
     height: 100vh;
-    background: url("C:\Users\Shiva Kona\OneDrive\圖片\Camera Roll\Snapchat-554575038.jpg") center/cover;
-
+    background: url("https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&w=894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")center/cover;
     display: flex;
     position:relative ;
     justify-content: center;
@@ -64,4 +63,18 @@ body{
 .content-overlay p{
        margin-top: 10px;
        position: center;
+}
+
+.get-started-button{
+    background-color: #333;
+    color: #555;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.get-started-button:hover{
+    background-color: #555;
+    color: rgba(255, 255, 0, 0.878);
 }
